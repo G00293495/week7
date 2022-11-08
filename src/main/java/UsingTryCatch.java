@@ -13,9 +13,9 @@ public class UsingTryCatch
             } else {
                 System.out.println("Not a valid number");
             }
-        }
-        catch(InputMismatchException e){
+        } catch (InputMismatchException e) {
             System.out.println("Invalid. Please try again");
         }
     }
+
 }
